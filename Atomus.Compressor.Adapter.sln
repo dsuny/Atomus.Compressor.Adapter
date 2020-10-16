@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Compressor.Adapter(dotNet)", "dotNet\Atomus.Compressor.Adapter(dotNet).csproj", "{86087439-E1BE-499A-B22A-F9EDE8B03E1C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{99AAD797-B97C-4AC3-A164-96AB744B9BCB}"
+	ProjectSection(SolutionItems) = preProject
+		src\Adapter.cs = src\Adapter.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Compressor.Adapter(dotNetCore)", "dotNetCore\Atomus.Compressor.Adapter(dotNetCore).csproj", "{9A7A746D-4F3E-4DF0-8DA7-07C7B18230CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Compressor.Adapter(dotNetStandard)", "dotNetStandard\Atomus.Compressor.Adapter(dotNetStandard).csproj", "{28A29FAD-FE2C-4E0A-A06E-0F7A035FF015}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86087439-E1BE-499A-B22A-F9EDE8B03E1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86087439-E1BE-499A-B22A-F9EDE8B03E1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86087439-E1BE-499A-B22A-F9EDE8B03E1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86087439-E1BE-499A-B22A-F9EDE8B03E1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A7A746D-4F3E-4DF0-8DA7-07C7B18230CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A7A746D-4F3E-4DF0-8DA7-07C7B18230CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A7A746D-4F3E-4DF0-8DA7-07C7B18230CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A7A746D-4F3E-4DF0-8DA7-07C7B18230CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28A29FAD-FE2C-4E0A-A06E-0F7A035FF015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28A29FAD-FE2C-4E0A-A06E-0F7A035FF015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28A29FAD-FE2C-4E0A-A06E-0F7A035FF015}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28A29FAD-FE2C-4E0A-A06E-0F7A035FF015}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C085D8CE-DE5C-41F2-9EFC-7C82D7B2AAE3}
+	EndGlobalSection
+EndGlobal
